@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="stylesheet" href="https://fontawesome.com/icons">
+        <script src="https://kit.fontawesome.com/b8605d6ab9.js" crossorigin="anonymous"></script>
+        <title> Personal Portfolio </title>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+                <div class="logo">Stephanie</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="burger-nav">
+            <div class="logo">Stephanie</div>
+            <div class="burger-menu">
+                <div class="burger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li ><a href="#profile" onclick="toggleMenu()">Home</a></li>
+                    <li ><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li ><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li ><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li ><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="pic.jpg" alt="My Profile Pic">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1"> Hello, I'm</p>
+                <h1 class="title"> Kate Stephanie Abucay</h1>
+                <p class="section__text__p2">Aspiring Front-End Web Developer.</p>
+                <div class="btn-group">
+                    <a href="cv.png" class="btn active">Download CV</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+                <div id="socials-container">
+                    <a href="https://www.facebook.com/stephanie.abucay.5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ai._steph?igsh=Z3kxMG10ZzFpNnRo"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.messenger.com/t/100022987932213"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="https://t.me/kiiiit_stphn"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic1-container">
+                    <img src="pic1.jpg" alt="Profile picture" class="about-pic">
+                </div>
+                <div class="about__details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h3>Experience</h3>
+                            <p>1 Year <br> Front-End Developer</p>
+                        </div>
+                        <div class="details-container">
+                            <i class="fa-solid fa-school"></i>
+                            <h3>Education</h3>
+                            <p>Bachelor of Science in Information Technology</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            My name is Kate Stephanie Udtohan Abucay, a 2nd year student that is currently studying 
+                            at Cebu Technological University - Danao Campus. Aspiring to be Full time Web Developer.
+                            Also love to, read during free time, and sometimes play video games to release pent up stress.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Front-End Developer</h2>
+                        <div class="article-container">
+                            <article>
+                                <i class="fa-solid fa-check"></i>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <i class="fa-solid fa-check"></i>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <i class="fa-solid fa-check"></i>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Back-End Developer</h2>
+                        <div class="article-container">
+                            <article>
+                                <i class="fa-solid fa-check"></i>
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p><a href="mailto:examplemail@gmail.com">katestephnieabucay@gmail.com</a></p>
+                    <i class="fa-solid fa-phone"> 09213456789</i>
+                </div>
+        </section>
+        <div class="footer">
+            <div class="content-footer">
+                <h4>© Kate Stephanie Abucay</h4>
+                <h5>
+                    <a href="https://www.facebook.com/stephanie.abucay.5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ai._steph?igsh=Z3kxMG10ZzFpNnRo"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.messenger.com/t/100022987932213"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="https://t.me/kiiiit_stphn"><i class="fa-brands fa-telegram"></i></a>
+                </h5>
+                <h5>
+                    <a href="#profile" onclick="toggleMenu()">Home</a>|
+                    <a href="#about" onclick="toggleMenu()">About</a>|
+                    <a href="#experience" onclick="toggleMenu()">Experience</a>|
+                    <a href="#projects" onclick="toggleMenu()">Projects</a>|
+                    <a href="#contact" onclick="toggleMenu()">Contact</a>
+                </h5>
+            </div>
+        </div>
+        <script>
+            function toggleMenu(){
+            const menu = document.querySelector(".menu-links");
+            const icon = document.querySelector(".burger-icon");
+            menu.classList.toggle("open");
+            icon.classList.toggle("open");
+            }
+        </script>
+    </body>
+</html>
